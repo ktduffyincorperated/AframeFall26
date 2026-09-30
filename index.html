@@ -14,12 +14,21 @@
 </head> 
  
 <body> 
+
+  <a-asset>
+
+    <img 
+    id="waves" 
+    src="images/AdobeStock_408699409.jpeg">
+
+  </a-asset>
  
   <a-scene> 
  
     <a-box 
       position="0 1 -3" 
-      color="#ff2a8a"> 
+      color="#ff2a8a" 
+      src="#waves"></a-box>
     </a-box> 
  
     <a-plane 
@@ -32,7 +41,7 @@
  
     <a-sky color="#241b2f"></a-sky> 
 
-    <a-entity environment></a-entity>
+    <a-entity environment="preset: forest;" dressingColor="#795430;"></a-entity>
 
 
 
